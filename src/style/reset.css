@@ -1,0 +1,170 @@
+/*常规*/
+/*@font-face {*/
+/*  font-family: Source Han Sans CN;  !*给自定义字体命名*!*/
+/*  src: url('./fonts/SourceHanSansCN-ExtraLight.otf') format('truetype');*/
+/*  font-weight:  200 ;*/
+/*  font-style: normal;*/
+/*}*/
+/*@font-face {*/
+/*  font-family: Source Han Sans CN;  !*给自定义字体命名*!*/
+/*  src: url('./fonts/SourceHanSansCN-Light.otf') format('truetype');*/
+/*  font-weight:  300 ;*/
+/*  font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: Source Han Sans CN;  !*给自定义字体命名*!*/
+/*  src: url('./fonts/SourceHanSansCN-Regular.ttf') format('truetype');*/
+/*  font-weight: 400;*/
+/*  font-style: normal;*/
+/*}*/
+/*@font-face {*/
+/*  font-family: Source Han Sans CN-Medium;  !*给自定义字体命名*!*/
+/*  src: url('./fonts/SourceHanSansCN-Medium.ttf') format('truetype');*/
+/*  font-weight: 500;*/
+/*  font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: Source Han Sans CN-Bold;  !*给自定义字体命名*!*/
+/*  src: url('./fonts/SourceHanSansCN-Bold.ttf') format('truetype');*/
+/*  font-weight: 700;*/
+/*  font-style: normal;*/
+/*}*/
+
+/*@font-face {*/
+/*  font-family: Source Han Sans CN;  !*给自定义字体命名*!*/
+/*  src: url('./fonts/SourceHanSansCN-Heavy.otf') format('truetype');*/
+/*  font-weight: 900;*/
+/*  font-style: normal;*/
+/*}*/
+
+
+
+.defined-scroll-bar{
+  overflow:auto;
+}
+.defined-scroll-bar::-webkit-scrollbar{
+  width:4px;
+  height:4px;
+}
+.defined-scroll-bar::-webkit-scrollbar-track{
+  background: #f6f6f6;
+  border-radius:2px;
+}
+.defined-scroll-bar::-webkit-scrollbar-thumb{
+  background: #aaa;
+  border-radius:2px;
+}
+.defined-scroll-bar::-webkit-scrollbar-thumb:hover{
+  background: #747474;
+}
+.defined-scroll-bar::-webkit-scrollbar-corner{
+  background: #f6f6f6;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+  white-space: normal;
+  word-break: break-all;
+}
+html,body{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);margin: 0; padding: 0;height: 100%;width: 100%}
+body {
+  /*background-color: #06061A;*/
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+h3 {
+  margin: 0;
+}
+/* ios无法输入 */
+input {
+  user-select: auto;
+}
+.padding-02rem{
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+.padding-03rem{
+  padding-left: .3rem;
+  padding-right: .3rem;
+}
+.padding-32rem{
+  padding-left: .32rem;
+  padding-right: .32rem;
+}
+.padding-36rem{
+  padding-left: .36rem;
+  padding-right: .36rem;
+}
+.padding-24rem{
+  padding-left: .24rem;
+  padding-right: .24rem;
+}
+.padding-04rem{
+  padding-left: .4rem;
+  padding-right: .4rem;
+}
+.padding-64rem{
+  padding-left: .64rem;
+  padding-right: .64rem;
+}
+
+.van-empty__image img{
+  width: 3.86rem !important;
+  height: 2.96rem !important;
+}
+.van-empty__image{
+  width: 3.86rem !important;
+  height: 2.96rem !important;
+}
+
+.one-more-wrap{
+  max-width: 1640px;
+  margin: 0 auto;
+}
+
+a,span,p,div{
+  font-size: 14px;
+}
+.module-title{
+  font-size: 56px;
+  font-family: Source Han Sans CN-Regular, Source Han Sans CN;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 64px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.module-plate{
+  padding-top: 70px;
+  box-sizing: border-box;
+  display: block;
+  min-height: 100vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .module-title{
+    font-size: .32rem;
+    line-height: .48rem;
+  }
+  .module-plate{
+    padding-top: .88rem;
+    min-height: 100%;
+    width: 100%;
+  }
+}
+
