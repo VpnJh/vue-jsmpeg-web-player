@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve --mode",
     "build": "vue-cli-service build --mode production && font-spider ./dist/index.html",
     "lint": "vue-cli-service lint",
-    "i18n:gen": "node script/auto-i18n.js",
+    "i18n:gen": "node script/autoI18n.js",
     "excel:2I18n": "node script/excel2I18n.js",
     "i18n:2Exec": "node script/i18n2Excel.js"
   },
